@@ -11,20 +11,20 @@ const Chef = () => (
     </div>
     <div className="app__wrapper_info">
       <SubHeading title="Chef's word" />
-      <h1 className="headtext__cormorant">What we believe in</h1>
+      <h1 className="headtext__cormorant">What do we believe in?</h1>
 
       <div className="app__chef-content">
         <div className="app__chef-content_quote">
           <img src={images.quote} alt="quote_image" />
-          <p className="p__opensans">Lorem ipsum dolor sit amet, consectetur adipiscing elit auctor sit .</p>
+          <p className="p__opensans">"Experience unparalleled luxury dining at Grand"</p>
+          <br />
         </div>
-        <p className="p__opensans"> auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue ac consequat, aliquam molestie lectus eu. Congue iaculis integer curabitur semper sit nunc. </p>
+        <p className="p__opensans">As the owner of Grand, I assure our guests that we provide an exceptional dining experience that is unparalleled in quality and sophistication. Our team of experienced chefs uses only the finest ingredients to create dishes that are both delicious and visually stunning. We pride ourselves on offering a diverse menu that caters to various dietary preferences and cultural tastes. Our attentive and knowledgeable staff is dedicated to providing exceptional service. Come experience the elegance and sophistication of Grand for yourself.</p>
       </div>
 
       <div className="app__chef-sign">
-        <p>Kevin Luo</p>
-        <p className="p__opensans">Chef & Founder</p>
-        <img src={images.sign} alt="sign_image" />
+        <p>Animesh Panda</p>
+        <p className="p__opensans">Founder</p>
       </div>
     </div>
   </div>
