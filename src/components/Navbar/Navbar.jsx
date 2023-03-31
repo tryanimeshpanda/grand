@@ -19,7 +19,7 @@ const Navbar = () => {
         <li className="p__opensans"><a href="#contact">Contact</a></li>
       </ul>
       <div className="app__navbar-login">
-        <a href="#login" className="p__opensans">Log In / Registration</a>
+        <a href="/" className="p__opensans">Log In / Registration</a>
         <div />
         <a href="/" className="p__opensans">Book Table</a>
       </div>
