@@ -38,7 +38,9 @@ const Footer = () => (
         <p className="p__opensans">Saturday-Sunday:</p>
         <p className="p__opensans">07:00 am - 11:00 pm</p>
       </div>
-      
+      <div className='earth-canvas-container'>
+        <EarthCanvas />
+      </div>
     </div>
 
     <div className="footer__copyright">
