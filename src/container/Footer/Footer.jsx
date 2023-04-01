@@ -1,6 +1,8 @@
 import React from 'react';
 import { FiFacebook, FiTwitter, FiInstagram } from 'react-icons/fi';
 
+import EarthCanvas from '../Earth';
+
 import { FooterOverlay, Newsletter } from '../../components';
 import { images } from '../../constants';
 import './Footer.css';
@@ -36,6 +38,7 @@ const Footer = () => (
         <p className="p__opensans">Saturday-Sunday:</p>
         <p className="p__opensans">07:00 am - 11:00 pm</p>
       </div>
+      
     </div>
 
     <div className="footer__copyright">

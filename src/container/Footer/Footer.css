@@ -103,3 +103,9 @@
         width: 80%;
     }
 }
+.earth-canvas-container {
+    width: 400px; /* Adjust the width */
+    height: 400px; /* Adjust the height */
+    position: relative; /* For proper positioning of the EarthCanvas */
+}
+  
